@@ -1,0 +1,268 @@
+/*
+* Y.A.N.G v1.0.0 - "Pink Doughnut"
+* Yet another Grid
+* Author: Eldin Hadzic
+* Copyright (c) 2015 Eldin Hadzic
+* Build: 15/11/2015-18:55
+* License : GNU General Public License, version 3 (GPL-3.0)
+* STATUS : RC - NO STYLE, JUST A GRID
+*
+* "Y.A.N.G - build with passion for responsive Design."
+*/
+.container {
+  margin: 0 auto;
+  padding: 0; }
+
+.row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 0 1;
+  -moz-box-flex: 0 1;
+  -webkit-flex: 0 1;
+  flex: 0 1;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-orient: normal;
+  -moz-box-orient: normal;
+  box-orient: normal;
+  -webkit-box-direction: horizontal;
+  -moz-box-diretion: horizontal;
+  box-direction: horizontal;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class^="c-"] {
+  -webkit-box-flex: 0 0;
+  -moz-box-flex: 0 0;
+  -webkit-flex: 0 0;
+  flex: 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+[class^="c-"]:last-child {
+  margin-right: 0%; }
+
+/*
+* Y.A.N.G for Mobile Devices
+*/
+@media (max-width: 31.25em) {
+  .row {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: column;
+    -moz-box-diretion: column;
+    box-direction: column; }
+
+  [class^="c-"] {
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%; } }
+/*
+* Y.A.N.G for Tablets
+*/
+@media (min-width: 31.25em) {
+  [class^="c-"] {
+    margin-right: 3%; }
+
+  .c-1 {
+    -webkit-flex-basis: 5.58333%;
+    -moz-flex-basis: 5.58333%;
+    flex-basis: 5.58333%; }
+
+  .c-2 {
+    -webkit-flex-basis: 14.16667%;
+    -moz-flex-basis: 14.16667%;
+    flex-basis: 14.16667%; }
+
+  .c-3 {
+    -webkit-flex-basis: 22.75%;
+    -moz-flex-basis: 22.75%;
+    flex-basis: 22.75%; }
+
+  .c-4 {
+    -webkit-flex-basis: 31.33333%;
+    -moz-flex-basis: 31.33333%;
+    flex-basis: 31.33333%; }
+
+  .c-5 {
+    -webkit-flex-basis: 39.91667%;
+    -moz-flex-basis: 39.91667%;
+    flex-basis: 39.91667%; }
+
+  .c-6 {
+    -webkit-flex-basis: 48.5%;
+    -moz-flex-basis: 48.5%;
+    flex-basis: 48.5%; }
+
+  .c-7 {
+    -webkit-flex-basis: 57.08333%;
+    -moz-flex-basis: 57.08333%;
+    flex-basis: 57.08333%; }
+
+  .c-8 {
+    -webkit-flex-basis: 65.66667%;
+    -moz-flex-basis: 65.66667%;
+    flex-basis: 65.66667%; }
+
+  .c-9 {
+    -webkit-flex-basis: 74.25%;
+    -moz-flex-basis: 74.25%;
+    flex-basis: 74.25%; }
+
+  .c-10 {
+    -webkit-flex-basis: 82.83333%;
+    -moz-flex-basis: 82.83333%;
+    flex-basis: 82.83333%; }
+
+  .c-11 {
+    -webkit-flex-basis: 91.41667%;
+    -moz-flex-basis: 91.41667%;
+    flex-basis: 91.41667%; }
+
+  .c-12 {
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%; } }
+/*
+* Y.A.N.G for Desktop
+*/
+@media (min-width: 75em) {
+  [class^="c-"] {
+    margin-right: 4%; }
+
+  .c-1 {
+    -webkit-flex-basis: 4.66667%;
+    -moz-flex-basis: 4.66667%;
+    flex-basis: 4.66667%; }
+
+  .c-2 {
+    -webkit-flex-basis: 13.33333%;
+    -moz-flex-basis: 13.33333%;
+    flex-basis: 13.33333%; }
+
+  .c-3 {
+    -webkit-flex-basis: 22%;
+    -moz-flex-basis: 22%;
+    flex-basis: 22%; }
+
+  .c-4 {
+    -webkit-flex-basis: 30.66667%;
+    -moz-flex-basis: 30.66667%;
+    flex-basis: 30.66667%; }
+
+  .c-5 {
+    -webkit-flex-basis: 39.33333%;
+    -moz-flex-basis: 39.33333%;
+    flex-basis: 39.33333%; }
+
+  .c-6 {
+    -webkit-flex-basis: 48%;
+    -moz-flex-basis: 48%;
+    flex-basis: 48%; }
+
+  .c-7 {
+    -webkit-flex-basis: 56.66667%;
+    -moz-flex-basis: 56.66667%;
+    flex-basis: 56.66667%; }
+
+  .c-8 {
+    -webkit-flex-basis: 65.33333%;
+    -moz-flex-basis: 65.33333%;
+    flex-basis: 65.33333%; }
+
+  .c-9 {
+    -webkit-flex-basis: 74%;
+    -moz-flex-basis: 74%;
+    flex-basis: 74%; }
+
+  .c-10 {
+    -webkit-flex-basis: 82.66667%;
+    -moz-flex-basis: 82.66667%;
+    flex-basis: 82.66667%; }
+
+  .c-11 {
+    -webkit-flex-basis: 91.33333%;
+    -moz-flex-basis: 91.33333%;
+    flex-basis: 91.33333%; }
+
+  .c-12 {
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%; } }
+/*
+* Y.A.N.G for UHD Devices
+*/
+@media (min-width: 250em) {
+  [class^="c-"] {
+    margin-right: 5%; }
+
+  .c-1 {
+    -webkit-flex-basis: 3.75%;
+    -moz-flex-basis: 3.75%;
+    flex-basis: 3.75%; }
+
+  .c-2 {
+    -webkit-flex-basis: 12.5%;
+    -moz-flex-basis: 12.5%;
+    flex-basis: 12.5%; }
+
+  .c-3 {
+    -webkit-flex-basis: 21.25%;
+    -moz-flex-basis: 21.25%;
+    flex-basis: 21.25%; }
+
+  .c-4 {
+    -webkit-flex-basis: 30.0%;
+    -moz-flex-basis: 30.0%;
+    flex-basis: 30.0%; }
+
+  .c-5 {
+    -webkit-flex-basis: 38.75%;
+    -moz-flex-basis: 38.75%;
+    flex-basis: 38.75%; }
+
+  .c-6 {
+    -webkit-flex-basis: 47.5%;
+    -moz-flex-basis: 47.5%;
+    flex-basis: 47.5%; }
+
+  .c-7 {
+    -webkit-flex-basis: 56.25%;
+    -moz-flex-basis: 56.25%;
+    flex-basis: 56.25%; }
+
+  .c-8 {
+    -webkit-flex-basis: 65%;
+    -moz-flex-basis: 65%;
+    flex-basis: 65%; }
+
+  .c-9 {
+    -webkit-flex-basis: 73.75%;
+    -moz-flex-basis: 73.75%;
+    flex-basis: 73.75%; }
+
+  .c-10 {
+    -webkit-flex-basis: 82.5%;
+    -moz-flex-basis: 82.5%;
+    flex-basis: 82.5%; }
+
+  .c-11 {
+    -webkit-flex-basis: 91.25%;
+    -moz-flex-basis: 91.25%;
+    flex-basis: 91.25%; }
+
+  .c-12 {
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%; } }
+
+/*# sourceMappingURL=yang.css.map */
