@@ -1,0 +1,128 @@
+// "Y.A.N.G - build with passion for responsive Design."
+//
+// Copyright (c) 2015 Eldin Hadzic
+// License : GNU General Public License, version 3 (GPL-3.0)
+
+$max-columns:12;
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  @include flexbox();
+  @include flex-val(0 1);
+  @include flex-dir(row);
+  @include flex-orient(normal);
+  @include flex-direction(horizontal);
+  @include box-sizing(border-box);
+}
+
+[class^="c-"] {
+  @include flex-val(0 0);
+  @include box-sizing(border-box);
+}
+[class^="c-"]:last-child {
+  margin-right: 0%;
+}
+
+/*
+* Y.A.N.G for Mobile Devices
+*/
+
+@media (max-width: 31.25em) {
+  .row {
+    @include flex-dir(column);
+    @include flex-orient(vertical);
+    @include flex-direction(column);
+  }
+
+  [class^="c-"] {
+    @include flex-basis(100%);
+  }
+}
+
+/*
+* Y.A.N.G for Tablets
+*/
+
+@media (min-width: 31.25em) {
+  $grid:3%;
+  [class^="c-"] {
+    margin-right: $grid;
+  }
+  
+  /*
+  * The Grid
+  */
+  @for $numerus from 1 through $max-columns {
+    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
+  }
+  
+  /*
+  * Offset Left & Right
+  */
+  @for $numerus from 1 through $max-columns - 1{
+    .off-left-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+  }
+  @for $numerus from 1 through $max-columns - 1  {
+    .off-right-#{$numerus} {margin-right:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+  }
+}
+
+/*
+* Y.A.N.G for Desktop
+*/
+
+@media (min-width: 75em) {
+  $grid:4%;
+  [class^="c-"] {
+    margin-right: $grid;
+  }
+  
+  /*
+  * The Grid
+  */
+  @for $numerus from 1 through $max-columns {
+    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
+  }
+  
+  /*
+  * Offset Left & Right
+  */
+  @for $numerus from 1 through $max-columns - 1{
+    .off-left-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+  }
+  @for $numerus from 1 through $max-columns - 1  {
+    .off-right-#{$numerus} {margin-right:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+  }
+}
+
+/*
+* Y.A.N.G for UHD Devices
+*/
+
+@media (min-width: 250em) {
+  $grid:5%;
+  [class^="c-"] {
+    margin-right: $grid;
+  }
+  
+  /*
+  * The Grid
+  */
+  @for $numerus from 1 through $max-columns {
+    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
+  }
+  
+  /*
+  * Offset Left & Right
+  */
+  @for $numerus from 1 through $max-columns - 1{
+    .off-left-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+  }
+  @for $numerus from 1 through $max-columns - 1  {
+    .off-right-#{$numerus} {margin-right:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+  }
+}

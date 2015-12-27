@@ -31,6 +31,18 @@
       <!-- Content -->
     </div>
   </div>
+  <!-- Offset Left and Right -->
+  <div class="row">
+    <div class="off-left-6 c-6">
+        <!-- Content -->
+    </div>
+  </div>
+  <!-- The above row is full, so we need a new one -->
+    <div class="row">
+        <div class="off-right-6 c-6">
+            <!-- Content -->
+        </div>
+    </div>
 </div>
 ```
 ## How to get in touch ?

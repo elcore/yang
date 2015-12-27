@@ -1,11 +1,11 @@
 /*
-* Y.A.N.G v1.0.0 - "Pink Doughnut"
+* Y.A.N.G V0.0.4 - "Fancy Eclair"
 * Yet another Grid
 * Author: Eldin Hadzic
 * Copyright (c) 2015 Eldin Hadzic
-* Build: 15/11/2015-18:55
+* Build: 26/12/2015-23:53
 * License : GNU General Public License, version 3 (GPL-3.0)
-* STATUS : RC - NO STYLE, JUST A GRID
+* STATUS : BETA - NO STYLE, JUST A GRID
 *
 * "Y.A.N.G - build with passion for responsive Design."
 */
@@ -73,6 +73,9 @@
   [class^="c-"] {
     margin-right: 3%; }
 
+  /*
+  * The Grid
+  */
   .c-1 {
     -webkit-flex-basis: 5.58333%;
     -moz-flex-basis: 5.58333%;
@@ -131,7 +134,76 @@
   .c-12 {
     -webkit-flex-basis: 100%;
     -moz-flex-basis: 100%;
-    flex-basis: 100%; } }
+    flex-basis: 100%; }
+
+  /*
+  * Offset Left & Right
+  */
+  .off-left-1 {
+    margin-left: 8.58333%; }
+
+  .off-left-2 {
+    margin-left: 17.16667%; }
+
+  .off-left-3 {
+    margin-left: 25.75%; }
+
+  .off-left-4 {
+    margin-left: 34.33333%; }
+
+  .off-left-5 {
+    margin-left: 42.91667%; }
+
+  .off-left-6 {
+    margin-left: 51.5%; }
+
+  .off-left-7 {
+    margin-left: 60.08333%; }
+
+  .off-left-8 {
+    margin-left: 68.66667%; }
+
+  .off-left-9 {
+    margin-left: 77.25%; }
+
+  .off-left-10 {
+    margin-left: 85.83333%; }
+
+  .off-left-11 {
+    margin-left: 94.41667%; }
+
+  .off-right-1 {
+    margin-right: 8.58333%; }
+
+  .off-right-2 {
+    margin-right: 17.16667%; }
+
+  .off-right-3 {
+    margin-right: 25.75%; }
+
+  .off-right-4 {
+    margin-right: 34.33333%; }
+
+  .off-right-5 {
+    margin-right: 42.91667%; }
+
+  .off-right-6 {
+    margin-right: 51.5%; }
+
+  .off-right-7 {
+    margin-right: 60.08333%; }
+
+  .off-right-8 {
+    margin-right: 68.66667%; }
+
+  .off-right-9 {
+    margin-right: 77.25%; }
+
+  .off-right-10 {
+    margin-right: 85.83333%; }
+
+  .off-right-11 {
+    margin-right: 94.41667%; } }
 /*
 * Y.A.N.G for Desktop
 */
@@ -139,6 +211,9 @@
   [class^="c-"] {
     margin-right: 4%; }
 
+  /*
+  * The Grid
+  */
   .c-1 {
     -webkit-flex-basis: 4.66667%;
     -moz-flex-basis: 4.66667%;
@@ -197,7 +272,76 @@
   .c-12 {
     -webkit-flex-basis: 100%;
     -moz-flex-basis: 100%;
-    flex-basis: 100%; } }
+    flex-basis: 100%; }
+
+  /*
+  * Offset Left & Right
+  */
+  .off-left-1 {
+    margin-left: 8.66667%; }
+
+  .off-left-2 {
+    margin-left: 17.33333%; }
+
+  .off-left-3 {
+    margin-left: 26%; }
+
+  .off-left-4 {
+    margin-left: 34.66667%; }
+
+  .off-left-5 {
+    margin-left: 43.33333%; }
+
+  .off-left-6 {
+    margin-left: 52%; }
+
+  .off-left-7 {
+    margin-left: 60.66667%; }
+
+  .off-left-8 {
+    margin-left: 69.33333%; }
+
+  .off-left-9 {
+    margin-left: 78%; }
+
+  .off-left-10 {
+    margin-left: 86.66667%; }
+
+  .off-left-11 {
+    margin-left: 95.33333%; }
+
+  .off-right-1 {
+    margin-right: 8.66667%; }
+
+  .off-right-2 {
+    margin-right: 17.33333%; }
+
+  .off-right-3 {
+    margin-right: 26%; }
+
+  .off-right-4 {
+    margin-right: 34.66667%; }
+
+  .off-right-5 {
+    margin-right: 43.33333%; }
+
+  .off-right-6 {
+    margin-right: 52%; }
+
+  .off-right-7 {
+    margin-right: 60.66667%; }
+
+  .off-right-8 {
+    margin-right: 69.33333%; }
+
+  .off-right-9 {
+    margin-right: 78%; }
+
+  .off-right-10 {
+    margin-right: 86.66667%; }
+
+  .off-right-11 {
+    margin-right: 95.33333%; } }
 /*
 * Y.A.N.G for UHD Devices
 */
@@ -205,6 +349,9 @@
   [class^="c-"] {
     margin-right: 5%; }
 
+  /*
+  * The Grid
+  */
   .c-1 {
     -webkit-flex-basis: 3.75%;
     -moz-flex-basis: 3.75%;
@@ -263,6 +410,75 @@
   .c-12 {
     -webkit-flex-basis: 100%;
     -moz-flex-basis: 100%;
-    flex-basis: 100%; } }
+    flex-basis: 100%; }
+
+  /*
+  * Offset Left & Right
+  */
+  .off-left-1 {
+    margin-left: 8.75%; }
+
+  .off-left-2 {
+    margin-left: 17.5%; }
+
+  .off-left-3 {
+    margin-left: 26.25%; }
+
+  .off-left-4 {
+    margin-left: 35%; }
+
+  .off-left-5 {
+    margin-left: 43.75%; }
+
+  .off-left-6 {
+    margin-left: 52.5%; }
+
+  .off-left-7 {
+    margin-left: 61.25%; }
+
+  .off-left-8 {
+    margin-left: 70%; }
+
+  .off-left-9 {
+    margin-left: 78.75%; }
+
+  .off-left-10 {
+    margin-left: 87.5%; }
+
+  .off-left-11 {
+    margin-left: 96.25%; }
+
+  .off-right-1 {
+    margin-right: 8.75%; }
+
+  .off-right-2 {
+    margin-right: 17.5%; }
+
+  .off-right-3 {
+    margin-right: 26.25%; }
+
+  .off-right-4 {
+    margin-right: 35%; }
+
+  .off-right-5 {
+    margin-right: 43.75%; }
+
+  .off-right-6 {
+    margin-right: 52.5%; }
+
+  .off-right-7 {
+    margin-right: 61.25%; }
+
+  .off-right-8 {
+    margin-right: 70%; }
+
+  .off-right-9 {
+    margin-right: 78.75%; }
+
+  .off-right-10 {
+    margin-right: 87.5%; }
+
+  .off-right-11 {
+    margin-right: 96.25%; } }
 
 /*# sourceMappingURL=yang.css.map */
