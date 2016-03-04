@@ -1,11 +1,10 @@
 /*
-* Y.A.N.G V0.0.4 - "Fancy Eclair"
+* Y.A.N.G V0.0.5 - "Crazy Froyo"
 * Yet another Grid
 * Author: Eldin Hadzic
-* Copyright (c) 2015 Eldin Hadzic
+* Copyright (c) 2015 - 2016 Eldin Hadzic
 * Build: 26/12/2015-23:53
 * License : GNU General Public License, version 3 (GPL-3.0)
-* STATUS : BETA - NO STYLE, JUST A GRID
 *
 * "Y.A.N.G - build with passion for responsive Design."
 */
@@ -71,65 +70,65 @@
 */
 @media (min-width: 31.25em) {
   [class^="c-"] {
-    margin-right: 3%; }
+    margin-right: 2%; }
 
   /*
   * The Grid
   */
   .c-1 {
-    -webkit-flex-basis: 5.58333%;
-    -moz-flex-basis: 5.58333%;
-    flex-basis: 5.58333%; }
+    -webkit-flex-basis: 6.5%;
+    -moz-flex-basis: 6.5%;
+    flex-basis: 6.5%; }
 
   .c-2 {
-    -webkit-flex-basis: 14.16667%;
-    -moz-flex-basis: 14.16667%;
-    flex-basis: 14.16667%; }
+    -webkit-flex-basis: 15.0%;
+    -moz-flex-basis: 15.0%;
+    flex-basis: 15.0%; }
 
   .c-3 {
-    -webkit-flex-basis: 22.75%;
-    -moz-flex-basis: 22.75%;
-    flex-basis: 22.75%; }
+    -webkit-flex-basis: 23.5%;
+    -moz-flex-basis: 23.5%;
+    flex-basis: 23.5%; }
 
   .c-4 {
-    -webkit-flex-basis: 31.33333%;
-    -moz-flex-basis: 31.33333%;
-    flex-basis: 31.33333%; }
+    -webkit-flex-basis: 32%;
+    -moz-flex-basis: 32%;
+    flex-basis: 32%; }
 
   .c-5 {
-    -webkit-flex-basis: 39.91667%;
-    -moz-flex-basis: 39.91667%;
-    flex-basis: 39.91667%; }
+    -webkit-flex-basis: 40.5%;
+    -moz-flex-basis: 40.5%;
+    flex-basis: 40.5%; }
 
   .c-6 {
-    -webkit-flex-basis: 48.5%;
-    -moz-flex-basis: 48.5%;
-    flex-basis: 48.5%; }
+    -webkit-flex-basis: 49%;
+    -moz-flex-basis: 49%;
+    flex-basis: 49%; }
 
   .c-7 {
-    -webkit-flex-basis: 57.08333%;
-    -moz-flex-basis: 57.08333%;
-    flex-basis: 57.08333%; }
+    -webkit-flex-basis: 57.5%;
+    -moz-flex-basis: 57.5%;
+    flex-basis: 57.5%; }
 
   .c-8 {
-    -webkit-flex-basis: 65.66667%;
-    -moz-flex-basis: 65.66667%;
-    flex-basis: 65.66667%; }
+    -webkit-flex-basis: 66%;
+    -moz-flex-basis: 66%;
+    flex-basis: 66%; }
 
   .c-9 {
-    -webkit-flex-basis: 74.25%;
-    -moz-flex-basis: 74.25%;
-    flex-basis: 74.25%; }
+    -webkit-flex-basis: 74.5%;
+    -moz-flex-basis: 74.5%;
+    flex-basis: 74.5%; }
 
   .c-10 {
-    -webkit-flex-basis: 82.83333%;
-    -moz-flex-basis: 82.83333%;
-    flex-basis: 82.83333%; }
+    -webkit-flex-basis: 83.0%;
+    -moz-flex-basis: 83.0%;
+    flex-basis: 83.0%; }
 
   .c-11 {
-    -webkit-flex-basis: 91.41667%;
-    -moz-flex-basis: 91.41667%;
-    flex-basis: 91.41667%; }
+    -webkit-flex-basis: 91.5%;
+    -moz-flex-basis: 91.5%;
+    flex-basis: 91.5%; }
 
   .c-12 {
     -webkit-flex-basis: 100%;
@@ -140,74 +139,212 @@
   * Offset Left & Right
   */
   .off-left-1 {
-    margin-left: 8.58333%; }
+    margin-left: 8.5%; }
 
   .off-left-2 {
-    margin-left: 17.16667%; }
+    margin-left: 17%; }
 
   .off-left-3 {
-    margin-left: 25.75%; }
+    margin-left: 25.5%; }
 
   .off-left-4 {
-    margin-left: 34.33333%; }
+    margin-left: 34%; }
 
   .off-left-5 {
-    margin-left: 42.91667%; }
+    margin-left: 42.5%; }
 
   .off-left-6 {
-    margin-left: 51.5%; }
+    margin-left: 51%; }
 
   .off-left-7 {
-    margin-left: 60.08333%; }
+    margin-left: 59.5%; }
 
   .off-left-8 {
-    margin-left: 68.66667%; }
+    margin-left: 68%; }
 
   .off-left-9 {
-    margin-left: 77.25%; }
+    margin-left: 76.5%; }
 
   .off-left-10 {
-    margin-left: 85.83333%; }
+    margin-left: 85.0%; }
 
   .off-left-11 {
-    margin-left: 94.41667%; }
+    margin-left: 93.5%; }
 
   .off-right-1 {
-    margin-right: 8.58333%; }
+    margin-right: 8.5%; }
 
   .off-right-2 {
-    margin-right: 17.16667%; }
+    margin-right: 17%; }
 
   .off-right-3 {
-    margin-right: 25.75%; }
+    margin-right: 25.5%; }
 
   .off-right-4 {
-    margin-right: 34.33333%; }
+    margin-right: 34%; }
 
   .off-right-5 {
-    margin-right: 42.91667%; }
+    margin-right: 42.5%; }
 
   .off-right-6 {
-    margin-right: 51.5%; }
+    margin-right: 51%; }
 
   .off-right-7 {
-    margin-right: 60.08333%; }
+    margin-right: 59.5%; }
 
   .off-right-8 {
-    margin-right: 68.66667%; }
+    margin-right: 68%; }
 
   .off-right-9 {
-    margin-right: 77.25%; }
+    margin-right: 76.5%; }
 
   .off-right-10 {
-    margin-right: 85.83333%; }
+    margin-right: 85.0%; }
 
   .off-right-11 {
-    margin-right: 94.41667%; } }
+    margin-right: 93.5%; } }
 /*
 * Y.A.N.G for Desktop
 */
 @media (min-width: 75em) {
+  [class^="c-"] {
+    margin-right: 3.5%; }
+
+  /*
+  * The Grid
+  */
+  .c-1 {
+    -webkit-flex-basis: 5.125%;
+    -moz-flex-basis: 5.125%;
+    flex-basis: 5.125%; }
+
+  .c-2 {
+    -webkit-flex-basis: 13.75%;
+    -moz-flex-basis: 13.75%;
+    flex-basis: 13.75%; }
+
+  .c-3 {
+    -webkit-flex-basis: 22.375%;
+    -moz-flex-basis: 22.375%;
+    flex-basis: 22.375%; }
+
+  .c-4 {
+    -webkit-flex-basis: 31.0%;
+    -moz-flex-basis: 31.0%;
+    flex-basis: 31.0%; }
+
+  .c-5 {
+    -webkit-flex-basis: 39.625%;
+    -moz-flex-basis: 39.625%;
+    flex-basis: 39.625%; }
+
+  .c-6 {
+    -webkit-flex-basis: 48.25%;
+    -moz-flex-basis: 48.25%;
+    flex-basis: 48.25%; }
+
+  .c-7 {
+    -webkit-flex-basis: 56.875%;
+    -moz-flex-basis: 56.875%;
+    flex-basis: 56.875%; }
+
+  .c-8 {
+    -webkit-flex-basis: 65.5%;
+    -moz-flex-basis: 65.5%;
+    flex-basis: 65.5%; }
+
+  .c-9 {
+    -webkit-flex-basis: 74.125%;
+    -moz-flex-basis: 74.125%;
+    flex-basis: 74.125%; }
+
+  .c-10 {
+    -webkit-flex-basis: 82.75%;
+    -moz-flex-basis: 82.75%;
+    flex-basis: 82.75%; }
+
+  .c-11 {
+    -webkit-flex-basis: 91.375%;
+    -moz-flex-basis: 91.375%;
+    flex-basis: 91.375%; }
+
+  .c-12 {
+    -webkit-flex-basis: 100%;
+    -moz-flex-basis: 100%;
+    flex-basis: 100%; }
+
+  /*
+  * Offset Left & Right
+  */
+  .off-left-1 {
+    margin-left: 8.625%; }
+
+  .off-left-2 {
+    margin-left: 17.25%; }
+
+  .off-left-3 {
+    margin-left: 25.875%; }
+
+  .off-left-4 {
+    margin-left: 34.5%; }
+
+  .off-left-5 {
+    margin-left: 43.125%; }
+
+  .off-left-6 {
+    margin-left: 51.75%; }
+
+  .off-left-7 {
+    margin-left: 60.375%; }
+
+  .off-left-8 {
+    margin-left: 69%; }
+
+  .off-left-9 {
+    margin-left: 77.625%; }
+
+  .off-left-10 {
+    margin-left: 86.25%; }
+
+  .off-left-11 {
+    margin-left: 94.875%; }
+
+  .off-right-1 {
+    margin-right: 8.625%; }
+
+  .off-right-2 {
+    margin-right: 17.25%; }
+
+  .off-right-3 {
+    margin-right: 25.875%; }
+
+  .off-right-4 {
+    margin-right: 34.5%; }
+
+  .off-right-5 {
+    margin-right: 43.125%; }
+
+  .off-right-6 {
+    margin-right: 51.75%; }
+
+  .off-right-7 {
+    margin-right: 60.375%; }
+
+  .off-right-8 {
+    margin-right: 69%; }
+
+  .off-right-9 {
+    margin-right: 77.625%; }
+
+  .off-right-10 {
+    margin-right: 86.25%; }
+
+  .off-right-11 {
+    margin-right: 94.875%; } }
+/*
+* Y.A.N.G for UHD Devices
+*/
+@media (min-width: 250em) {
   [class^="c-"] {
     margin-right: 4%; }
 
@@ -342,143 +479,5 @@
 
   .off-right-11 {
     margin-right: 95.33333%; } }
-/*
-* Y.A.N.G for UHD Devices
-*/
-@media (min-width: 250em) {
-  [class^="c-"] {
-    margin-right: 5%; }
-
-  /*
-  * The Grid
-  */
-  .c-1 {
-    -webkit-flex-basis: 3.75%;
-    -moz-flex-basis: 3.75%;
-    flex-basis: 3.75%; }
-
-  .c-2 {
-    -webkit-flex-basis: 12.5%;
-    -moz-flex-basis: 12.5%;
-    flex-basis: 12.5%; }
-
-  .c-3 {
-    -webkit-flex-basis: 21.25%;
-    -moz-flex-basis: 21.25%;
-    flex-basis: 21.25%; }
-
-  .c-4 {
-    -webkit-flex-basis: 30.0%;
-    -moz-flex-basis: 30.0%;
-    flex-basis: 30.0%; }
-
-  .c-5 {
-    -webkit-flex-basis: 38.75%;
-    -moz-flex-basis: 38.75%;
-    flex-basis: 38.75%; }
-
-  .c-6 {
-    -webkit-flex-basis: 47.5%;
-    -moz-flex-basis: 47.5%;
-    flex-basis: 47.5%; }
-
-  .c-7 {
-    -webkit-flex-basis: 56.25%;
-    -moz-flex-basis: 56.25%;
-    flex-basis: 56.25%; }
-
-  .c-8 {
-    -webkit-flex-basis: 65%;
-    -moz-flex-basis: 65%;
-    flex-basis: 65%; }
-
-  .c-9 {
-    -webkit-flex-basis: 73.75%;
-    -moz-flex-basis: 73.75%;
-    flex-basis: 73.75%; }
-
-  .c-10 {
-    -webkit-flex-basis: 82.5%;
-    -moz-flex-basis: 82.5%;
-    flex-basis: 82.5%; }
-
-  .c-11 {
-    -webkit-flex-basis: 91.25%;
-    -moz-flex-basis: 91.25%;
-    flex-basis: 91.25%; }
-
-  .c-12 {
-    -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
-    flex-basis: 100%; }
-
-  /*
-  * Offset Left & Right
-  */
-  .off-left-1 {
-    margin-left: 8.75%; }
-
-  .off-left-2 {
-    margin-left: 17.5%; }
-
-  .off-left-3 {
-    margin-left: 26.25%; }
-
-  .off-left-4 {
-    margin-left: 35%; }
-
-  .off-left-5 {
-    margin-left: 43.75%; }
-
-  .off-left-6 {
-    margin-left: 52.5%; }
-
-  .off-left-7 {
-    margin-left: 61.25%; }
-
-  .off-left-8 {
-    margin-left: 70%; }
-
-  .off-left-9 {
-    margin-left: 78.75%; }
-
-  .off-left-10 {
-    margin-left: 87.5%; }
-
-  .off-left-11 {
-    margin-left: 96.25%; }
-
-  .off-right-1 {
-    margin-right: 8.75%; }
-
-  .off-right-2 {
-    margin-right: 17.5%; }
-
-  .off-right-3 {
-    margin-right: 26.25%; }
-
-  .off-right-4 {
-    margin-right: 35%; }
-
-  .off-right-5 {
-    margin-right: 43.75%; }
-
-  .off-right-6 {
-    margin-right: 52.5%; }
-
-  .off-right-7 {
-    margin-right: 61.25%; }
-
-  .off-right-8 {
-    margin-right: 70%; }
-
-  .off-right-9 {
-    margin-right: 78.75%; }
-
-  .off-right-10 {
-    margin-right: 87.5%; }
-
-  .off-right-11 {
-    margin-right: 96.25%; } }
 
 /*# sourceMappingURL=yang.css.map */

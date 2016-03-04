@@ -1,6 +1,6 @@
 // "Y.A.N.G - build with passion for responsive Design."
 //
-// Copyright (c) 2015 Eldin Hadzic
+// Copyright (c) 2015 - 2016 Eldin Hadzic
 // License : GNU General Public License, version 3 (GPL-3.0)
 
 $max-columns:12;
@@ -48,18 +48,18 @@ $max-columns:12;
 */
 
 @media (min-width: 31.25em) {
-  $grid:3%;
+  $grid:2%;
   [class^="c-"] {
     margin-right: $grid;
   }
-  
+
   /*
   * The Grid
   */
   @for $numerus from 1 through $max-columns {
     .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
   }
-  
+
   /*
   * Offset Left & Right
   */
@@ -76,18 +76,18 @@ $max-columns:12;
 */
 
 @media (min-width: 75em) {
-  $grid:4%;
+  $grid:3.5%;
   [class^="c-"] {
     margin-right: $grid;
   }
-  
+
   /*
   * The Grid
   */
   @for $numerus from 1 through $max-columns {
     .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
   }
-  
+
   /*
   * Offset Left & Right
   */
@@ -104,18 +104,18 @@ $max-columns:12;
 */
 
 @media (min-width: 250em) {
-  $grid:5%;
+  $grid:4%;
   [class^="c-"] {
     margin-right: $grid;
   }
-  
+
   /*
   * The Grid
   */
   @for $numerus from 1 through $max-columns {
     .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
   }
-  
+
   /*
   * Offset Left & Right
   */
