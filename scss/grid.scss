@@ -44,85 +44,26 @@ $max-columns:12;
 }
 
 /*
-* Y.A.N.G for Tablets
+* Y.A.N.G
 */
 
 @media (min-width: 31.25em) {
-  $grid:2%;
   [class^="c-"] {
-    margin-right: $grid;
+    padding-left: .5rem;
+    padding-right:.5rem;
   }
 
   /*
   * The Grid
   */
   @for $numerus from 1 through $max-columns {
-    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
+    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)));}
   }
 
   /*
-  * Offset Left & Right
+  * Offset
   */
   @for $numerus from 1 through $max-columns - 1{
-    .off-left-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
-  }
-  @for $numerus from 1 through $max-columns - 1  {
-    .off-right-#{$numerus} {margin-right:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
-  }
-}
-
-/*
-* Y.A.N.G for Desktop
-*/
-
-@media (min-width: 75em) {
-  $grid:3.5%;
-  [class^="c-"] {
-    margin-right: $grid;
-  }
-
-  /*
-  * The Grid
-  */
-  @for $numerus from 1 through $max-columns {
-    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
-  }
-
-  /*
-  * Offset Left & Right
-  */
-  @for $numerus from 1 through $max-columns - 1{
-    .off-left-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
-  }
-  @for $numerus from 1 through $max-columns - 1  {
-    .off-right-#{$numerus} {margin-right:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
-  }
-}
-
-/*
-* Y.A.N.G for UHD Devices
-*/
-
-@media (min-width: 250em) {
-  $grid:4%;
-  [class^="c-"] {
-    margin-right: $grid;
-  }
-
-  /*
-  * The Grid
-  */
-  @for $numerus from 1 through $max-columns {
-    .c-#{$numerus} {@include flex-basis((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns));}
-  }
-
-  /*
-  * Offset Left & Right
-  */
-  @for $numerus from 1 through $max-columns - 1{
-    .off-left-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
-  }
-  @for $numerus from 1 through $max-columns - 1  {
-    .off-right-#{$numerus} {margin-right:((100% / ($max-columns / $numerus)) - ($grid * ($max-columns - $numerus) / $max-columns) + $grid);}
+    .offset-#{$numerus} {margin-left:((100% / ($max-columns / $numerus)));}
   }
 }

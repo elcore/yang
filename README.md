@@ -31,17 +31,10 @@
       <!-- Content -->
     </div>
   </div>
-  <!-- Offset Left and Right -->
+  <!-- Offset -->
   <div class="row">
-    <div class="off-left-6 c-6">
-        <!-- Content -->
-    </div>
-  </div>
-  <!-- The above row is full, so we need a new one -->
-    <div class="row">
-        <div class="off-right-6 c-6">
-            <!-- Content -->
-        </div>
+    <div class="offset-6 c-6">
+        <!-- Contenent -->
     </div>
 </div>
 ```
@@ -50,4 +43,4 @@
 - [Over Twitter](https://twitter.com/eldinhadzic_)
 - [Over my public E-Mail](mailto:elcore@tutanota.com)
 
-Copyright (c) 2015 Eldin Hadzic
+Copyright (c) 2015 - 2016 Eldin Hadzic
