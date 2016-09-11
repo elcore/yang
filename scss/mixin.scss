@@ -4,8 +4,6 @@
 // License : GNU General Public License, version 3 (GPL-3.0)
 
 @mixin box-sizing($species) {
-  -webkit-box-sizing: $species;
-  -moz-box-sizing: $species;
   box-sizing: $species;
 }
 
@@ -17,38 +15,20 @@
 }
 
 @mixin flex-val($species) {
-  -webkit-box-flex: $species;
-  -moz-box-flex: $species;
-  -webkit-flex: $species;
   flex: $species;
 }
 
-@mixin flex-dir($species) {
-  -webkit-flex-direction: $species;
-  -moz-flex-direction: $species;
-  flex-direction: $species;
-}
-
-@mixin flex-orient($species) {
-  -webkit-box-orient: $species;
-  -moz-box-orient: $species;
-  box-orient: $species;
-}
-
 @mixin flex-direction($species) {
-  -webkit-box-direction: $species;
-  -moz-box-diretion: $species;
-  box-direction: $species;
+  -webkit-flex-direction: $species;
+  flex-direction: $species;
 }
 
 @mixin flex-wrap($species) {
   -webkit-flex-wrap: $species;
-  -moz-flex-wrap: $species;
   flex-wrap: wrap;
 }
 
 @mixin flex-basis($species) {
   -webkit-flex-basis: $species;
-  -moz-flex-basis: $species;
   flex-basis: $species;
 }

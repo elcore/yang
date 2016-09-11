@@ -13,9 +13,7 @@ $max-columns:12;
 .row {
   @include flexbox();
   @include flex-val(0 1);
-  @include flex-dir(row);
-  @include flex-orient(normal);
-  @include flex-direction(horizontal);
+  @include flex-direction(row);
   @include box-sizing(border-box);
 }
 
@@ -33,8 +31,6 @@ $max-columns:12;
 
 @media (max-width: 31.25em) {
   .row {
-    @include flex-dir(column);
-    @include flex-orient(vertical);
     @include flex-direction(column);
   }
 

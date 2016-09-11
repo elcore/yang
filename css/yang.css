@@ -1,9 +1,9 @@
 /*
-* Y.A.N.G V0.0.6 - "Italian Gelato"
+* Y.A.N.G V0.0.7 - "Hot-Fudge Sundae"
 * Yet another Grid
 * Author: Eldin Hadzic
 * Copyright (c) 2015 - 2016 Eldin Hadzic
-* Build: 04/08/2016-13:50
+* Build: 11/09/2016-16:40
 * License : GNU General Public License, version 3 (GPL-3.0)
 *
 * "Y.A.N.G - build with passion for responsive Design."
@@ -17,30 +17,13 @@
   display: -moz-box;
   display: -webkit-flex;
   display: flex;
-  -webkit-box-flex: 0 1;
-  -moz-box-flex: 0 1;
-  -webkit-flex: 0 1;
   flex: 0 1;
   -webkit-flex-direction: row;
-  -moz-flex-direction: row;
   flex-direction: row;
-  -webkit-box-orient: normal;
-  -moz-box-orient: normal;
-  box-orient: normal;
-  -webkit-box-direction: horizontal;
-  -moz-box-diretion: horizontal;
-  box-direction: horizontal;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 [class^="c-"] {
-  -webkit-box-flex: 0 0;
-  -moz-box-flex: 0 0;
-  -webkit-flex: 0 0;
   flex: 0 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 [class^="c-"]:last-child {
@@ -52,18 +35,10 @@
 @media (max-width: 31.25em) {
   .row {
     -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-box-direction: column;
-    -moz-box-diretion: column;
-    box-direction: column; }
+    flex-direction: column; }
 
   [class^="c-"] {
     -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
     flex-basis: 100%; } }
 /*
 * Y.A.N.G
@@ -78,62 +53,50 @@
   */
   .c-1 {
     -webkit-flex-basis: 8.33333%;
-    -moz-flex-basis: 8.33333%;
     flex-basis: 8.33333%; }
 
   .c-2 {
     -webkit-flex-basis: 16.66667%;
-    -moz-flex-basis: 16.66667%;
     flex-basis: 16.66667%; }
 
   .c-3 {
     -webkit-flex-basis: 25%;
-    -moz-flex-basis: 25%;
     flex-basis: 25%; }
 
   .c-4 {
     -webkit-flex-basis: 33.33333%;
-    -moz-flex-basis: 33.33333%;
     flex-basis: 33.33333%; }
 
   .c-5 {
     -webkit-flex-basis: 41.66667%;
-    -moz-flex-basis: 41.66667%;
     flex-basis: 41.66667%; }
 
   .c-6 {
     -webkit-flex-basis: 50%;
-    -moz-flex-basis: 50%;
     flex-basis: 50%; }
 
   .c-7 {
     -webkit-flex-basis: 58.33333%;
-    -moz-flex-basis: 58.33333%;
     flex-basis: 58.33333%; }
 
   .c-8 {
     -webkit-flex-basis: 66.66667%;
-    -moz-flex-basis: 66.66667%;
     flex-basis: 66.66667%; }
 
   .c-9 {
     -webkit-flex-basis: 75%;
-    -moz-flex-basis: 75%;
     flex-basis: 75%; }
 
   .c-10 {
     -webkit-flex-basis: 83.33333%;
-    -moz-flex-basis: 83.33333%;
     flex-basis: 83.33333%; }
 
   .c-11 {
     -webkit-flex-basis: 91.66667%;
-    -moz-flex-basis: 91.66667%;
     flex-basis: 91.66667%; }
 
   .c-12 {
     -webkit-flex-basis: 100%;
-    -moz-flex-basis: 100%;
     flex-basis: 100%; }
 
   /*
@@ -171,5 +134,3 @@
 
   .offset-11 {
     margin-left: 91.66667%; } }
-
-/*# sourceMappingURL=yang.css.map */
