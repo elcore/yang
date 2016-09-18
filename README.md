@@ -41,6 +41,6 @@
 ## How to get in touch ?
 
 - [Over Twitter](https://twitter.com/eldinhadzic_)
-- [Over my public E-Mail](mailto:elcore@tutanota.com)
+- [Over my public E-Mail](mailto:eldinhadzic@protonmail.com)
 
 Copyright (c) 2015 - 2016 Eldin Hadzic
